@@ -1,0 +1,106 @@
+h1{
+  text-align: center;
+  padding: 35px;
+}
+
+.row-container {
+  
+  display: flex;
+  align-items: center;
+  width: 70rem;
+  height: 12rem;
+  margin-bottom: 10px;
+  border: 2px solid rgb(137, 106, 190);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+  
+  .item-image {
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+  }
+  
+  .item-details {
+    display: inline;
+  
+  }
+  
+  .item-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .item-quantity {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .item-price {
+    font-size: 16px;
+    color: green;
+  }
+  .price {
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    /* margin: auto; */
+    margin-bottom: 20px;
+    margin-left: auto; /* Move to the right side */
+    margin-right: 3%;
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid rgb(246, 241, 246);
+    border-radius: 10px;
+    background-color: rgb(137, 106, 190);
+    opacity: 1; /* Adjust the opacity as needed */
+    box-shadow: 0 0 10px rgb(137, 106, 190);
+  }
+  
+  .container1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .c-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Adjust spacing between buttons */
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .c-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .remove-button {
+    margin-left: 10px; /* Adjust spacing between buttons */
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .c-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    /* border: 1px solid rgb(137, 106, 190); */
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    
+  }

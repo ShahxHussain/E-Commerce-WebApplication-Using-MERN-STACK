@@ -1,0 +1,72 @@
+/* AdminPanel.css */
+
+.admin-panel {
+  display: flex;
+  height: 100vh;
+}
+
+.admin-panel-sidebar {
+  width: 250px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  color: #333;
+}
+
+.admin-panel-heading {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.admin-panel-tabs {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-panel-tab {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-panel-tab:hover {
+  background-color: #ddd;
+}
+
+.admin-panel-tab.active {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.admin-panel-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboard-content,
+.products-content,
+.orders-content,
+.customers-content {
+  display: none;
+}
+
+.dashboard-content h3,
+.products-content h3,
+.orders-content h3,
+.customers-content h3 {
+  margin-bottom: 10px;
+}
+
+.dashboard-content p,
+.products-content p,
+.orders-content p,
+.customers-content p {
+  color: #777;
+}
+
+.dashboard-content.show,
+.products-content.show,
+.orders-content.show,
+.customers-content.show {
+  display: block;
+}

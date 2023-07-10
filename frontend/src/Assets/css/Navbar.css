@@ -1,0 +1,50 @@
+.navbardiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(137, 106, 190, 0.7); 
+    justify-content: flex-end;
+    height: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.Navtext{
+    margin: 30px;
+    color: white;
+}
+.container-fluid{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    border: 3px solid beige;
+    /* background-color: rgb(65, 54, 83); */
+}
+
+.text{
+    position: absolute;
+    right: 30px;
+    align-items: center;
+}
+
+.logo-img{
+    width: 300px;
+    height: 280px;
+    padding-top: 10px;
+    /* border-radius: 80px 80px; */
+    position: absolute;
+    left: 20px;
+}
+
+.linktext{
+    margin: 10px;
+    color: rgb(13, 4, 4);
+}
+
+.icons{
+    height: 60px;
+    width: 60px;
+}
+

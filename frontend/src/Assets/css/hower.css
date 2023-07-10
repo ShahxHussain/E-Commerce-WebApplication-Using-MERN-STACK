@@ -1,0 +1,72 @@
+.linktext::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.linktext:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.linktext::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: rgb(137, 106, 190);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.linktext {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1rem;
+}
+
+.linktext {
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-weight: 600;
+  font-style: oblique;
+  block-size: 70%;
+  inline-size: 6%;
+  font-variant: small-caps;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.brand1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-img {
+  animation-name: waterdrop;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes waterdrop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

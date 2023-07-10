@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.left-div {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}
+
+.right-div {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}

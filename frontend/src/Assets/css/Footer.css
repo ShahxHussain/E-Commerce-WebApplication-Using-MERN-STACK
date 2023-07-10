@@ -1,0 +1,71 @@
+footer {
+  margin-top: 15%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-left ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subscribe {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .subscribe input[type="text"] {
+    
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .subscribe button {
+    background-color: rgb(137, 106, 190);
+    border: none;
+    color: #333;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer-line {
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+
+  

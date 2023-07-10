@@ -1,0 +1,41 @@
+.Signup {
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Signup-container {
+    height: 70%;
+    width: 40%;
+    margin: auto;
+    border: 2px solid rgb(230, 224, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgb(137, 106, 190);
+    opacity: 1;
+    box-shadow: 0 0 40px rgb(137, 106, 190);
+  }
+  
+  .div11 {
+    margin: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25px;
+    width: 300px;
+    align-items: center;
+    border-radius: 8px;
+    color:white
+  }
+  
+  .labels {
+    color: black;
+    margin-right: 10px;
+  }
+  

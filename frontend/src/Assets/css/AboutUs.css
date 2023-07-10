@@ -1,0 +1,36 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+   
+  }
+  
+  
+  .col-md-5 img {
+    margin-top: 3em;
+    margin-left: 10px;
+    max-width: 40rem;
+    height: auto;
+    border-radius: 2em;
+    box-shadow: 2px 2px 2px 2px white;
+    transition: transform 0.3s ease;
+  }
+  
+  .col-md-5 img:hover {
+    transform: scale(1.1);
+  }
+  #btn {
+    width: 7rem;
+    animation: buttonAnimation 1s ease infinite alternate;
+  }
+  
+  @keyframes buttonAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  

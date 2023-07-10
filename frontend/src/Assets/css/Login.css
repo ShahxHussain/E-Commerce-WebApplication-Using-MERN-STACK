@@ -1,0 +1,57 @@
+.login {
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.login-container {
+    height: 70%;
+    width: 40%;
+    margin: auto; 
+    border: 2px solid rgb(230, 224, 230);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 40px;
+    background-color: rgb(137, 106, 190); 
+    opacity: 1; /* Adjust the opacity as needed */
+    box-shadow: 0 0 40px rgb(137, 106, 190); 
+  }
+  .div1 {
+    margin: 5px; /* Adjust the margin as desired to make the divs closer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25px;
+    width: 300px; 
+    align-items: center;
+    border-radius: 8px;
+    /* color:white */
+  }
+  
+ .labels{
+    color: black;
+ }
+
+
+ /* .d1-block {
+  animation-name: waterdrop;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes waterdrop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
